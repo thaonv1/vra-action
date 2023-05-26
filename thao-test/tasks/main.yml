@@ -1,4 +1,6 @@
 ---
-name: debug
-debug:
-  msg: Hello {{ name }}
+- name: Ansible debug module in action
+  tasks:
+    name: debug
+    debug:
+      msg: Hello {{ name }}
