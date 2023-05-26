@@ -1,4 +1,4 @@
 ---
 name: debug
-  debug:
-    msg: Hello {{ name }}
+debug:
+  msg: Hello {{ name }}
